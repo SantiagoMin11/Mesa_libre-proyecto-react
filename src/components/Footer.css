@@ -1,0 +1,86 @@
+.footer {
+  background-color: #0b0b0b;
+  color: white;
+  padding: 65px 7% 20px;
+  border-top: 1px solid rgba(212, 175, 55, 0.4);
+}
+
+.footer-contenido {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+  padding-bottom: 45px;
+}
+
+.footer-marca {
+  width: 30%;
+}
+
+.footer-marca h2 {
+  color: #d4af37;
+  font-family: Georgia, serif;
+  font-size: 30px;
+  font-weight: normal;
+  margin: 0 0 18px;
+}
+
+.footer-marca p {
+  color: #aaaaaa;
+  font-size: 13px;
+  line-height: 1.8;
+}
+
+.footer-enlaces,
+.footer-contacto,
+.footer-redes {
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+}
+
+.footer h3 {
+  color: #d4af37;
+  font-family: Georgia, serif;
+  font-size: 19px;
+  font-weight: normal;
+  margin: 0 0 8px;
+}
+
+.footer a {
+  color: #aaaaaa;
+  text-decoration: none;
+  font-size: 13px;
+  transition: 0.3s;
+}
+
+.footer a:hover {
+  color: #d4af37;
+}
+
+.footer-contacto p {
+  color: #aaaaaa;
+  font-size: 13px;
+  margin: 0;
+}
+
+.footer-final {
+  border-top: 1px solid #292929;
+  padding-top: 20px;
+  text-align: center;
+}
+
+.footer-final p {
+  color: #777777;
+  font-size: 12px;
+}
+
+@media (max-width: 768px) {
+  .footer-contenido {
+    flex-direction: column;
+    gap: 35px;
+  }
+
+  .footer-marca {
+    width: 100%;
+  }
+}
